@@ -20,3 +20,19 @@ footer a {
 footer a:hover {
     color: var(--cor-destaque);
 }
+
+body.dark-mode {
+    background-color: rgba(18, 18, 18, 0.853);
+    color: #fff;
+}
+
+.dark-mode {
+    margin-top: 20px;
+}
+
+.dark-mode-btn {
+    display: flex;
+    background-color: rgb(44, 62,80);
+    color: #fff;
+    border-radius: 150px;
+}
